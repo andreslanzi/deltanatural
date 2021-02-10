@@ -779,7 +779,7 @@ p {
   height: 800px;
   position: relative;
   overflow: hidden;
-  border-bottom-left-radius: 500px;
+  border-bottom-left-radius:400px;
 }
 
 @media only screen and (min-width: 1400px) {
