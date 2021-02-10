@@ -1,23 +1,8 @@
-/*-----------------------------------------------------------------------------------
 
-    Template Name: TraveLand - Tour and Travel Agency Template
-    Author: UIdeck
-
------------------------------------------------------------------------------------
-
-    CSS INDEX
-    ===================
-
-    01. Theme default CSS
-	02. Header
-    03. Hero
-	04. Footer
-
------------------------------------------------------------------------------------*/
-/*===========================
-    1. COMMON css 
-===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+
+html, body {width: auto!important; overflow-x: hidden!important} 
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
