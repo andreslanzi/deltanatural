@@ -537,6 +537,13 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
+@media (max-width:400px){
+    .navbar{
+      flex-wrap: nowrap;
+    }
+}
+
+
 .navbar-toggler.active .toggler-icon:nth-of-type(1) {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -580,6 +587,8 @@ p {
     padding: 5px 12px;
   }
 }
+
+
 
 .navbar-nav .nav-item {
   position: relative;
@@ -849,7 +858,7 @@ p {
 
 .slider_content .slider_title span {
   display: contents;
-  color: #827333;
+  color: #c9b24c;
 }
 
 .slider_content p {
