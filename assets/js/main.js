@@ -23,6 +23,16 @@ $(function() {
     });
     
 
+
+
+    var window_weight = $(window).width();
+    if (window_weight >= 1000) {
+        $('#mainText').removeClass('col-lg-6 col-md-8')
+        $('#mainText').addClass('col-lg-12')
+    }
+    
+
+
     //===== Section Menu Active
 
     var scrollLink = $('.page-scroll');

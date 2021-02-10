@@ -825,13 +825,13 @@ p {
 }
 @media (max-width: 1200px) {
   .slider_content .slider_title {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
 @media (max-width: 767px) {
   .slider_content .slider_title {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
