@@ -780,7 +780,7 @@ p {
   height: 800px;
   position: relative;
   overflow: hidden;
-  border-bottom-left-radius:400px;
+  border-bottom-left-radius:250px;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -1823,6 +1823,13 @@ p {
     font-size: 20px;
   }
 }
+
+@media (max-width:415px){
+  .destination_content > ul > li {
+  font-size: 85%
+}
+}
+
 
 /* .footer_link {
   width: 50%;
