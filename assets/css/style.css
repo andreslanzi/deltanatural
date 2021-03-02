@@ -10,6 +10,22 @@ body {
   color: #747E88;
 }
 
+.socialicons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialicons > a > i {
+  margin: 5px 5px 5px 5px;
+  color: white;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
