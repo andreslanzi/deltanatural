@@ -66,10 +66,6 @@ $(function() {
         $(".navbar-toggler").removeClass('active');
     });
 
-    // $(".navbar-toggler").on('click', function () {
-    //     $("#facebooklogo").addClass("hide");
-    //     $("#instagramlogo").addClass("hide")
-    // })
     
     
     //===== Counter Up
