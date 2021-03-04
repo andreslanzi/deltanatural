@@ -778,16 +778,16 @@ p {
 
 /*===== SLIDER =====*/
 .single_slider {
-  height: 700px;
+  height: 800px;
   position: relative;
   overflow: hidden;
-  border-bottom-left-radius:400px;
+  border-bottom-left-radius:165px;
 }
 
 
 @media only screen and (min-width: 1400px) {
   .single_slider {
-    height: 700px;
+    height: 950px;
   }
 }
 
@@ -1936,4 +1936,13 @@ p {
 
 .my-float{
 	margin-top:16px;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.lni-instagram::before {
+  content: "\eaf3";
+  margin-right: 15px;
 }

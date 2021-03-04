@@ -25,8 +25,7 @@
     <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
         
     <!--====== Bootstrap CSS ======-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.4.5.2.min.css">
     
     <!--====== Default CSS ======-->
     <link rel="stylesheet" href="assets/css/default.css">
@@ -69,7 +68,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo2.svg" alt="Logo" id='logo' style="width: 400px;">
+                                <img src="assets/images/logo2.svg" alt="Logo" id='logo' style="width: 400px; margin-bottom: 15px;">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -83,10 +82,10 @@
                                         <a class="page-scroll" href="#home" id='asd'>Inicio</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#about">Nosotros</a>
+                                        <a class="page-scroll" href="#packges">Productos</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#packges">Productos</a>
+                                        <a class="page-scroll" href="#about">Nosotros</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#services">Servicios</a>
@@ -97,12 +96,15 @@
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#contact">Contacto</a>
                                     </li>
-                                    <li class="nav-item">
+                                 <div class="social"  style="display: flex; justify-content:left; align-items: center;">
+                                    <li class="nav-item" id="instagramlogo">
                                         <a href="https://www.instagram.com/deltanaturalnorte" target="_blank"><i class="lni lni-instagram"></i></a>
+
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item" id="facebooklogo">
                                         <a href="https://www.facebook.com/deltanaturalnorte/" target="_blank"><i class="lni lni-facebook-oval"></i></a>
                                     </li>
+                                </div>
                                 </ul>
                             </div> <!-- navbar collapse -->
                         </nav> <!-- navbar -->
@@ -175,7 +177,8 @@
                     <!-- <img src="assets/images/delta.jpg" alt="Destination" style="width: 500px; height: 350px;"> -->
                 </div>
                 <div class="destination_content">
-                    <a href="javascript:void(0)" class="main-btn">Consultar</a>
+                    <a href="https://api.whatsapp.com/send?phone=5491157659991&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20P%C3%A9rgola%20Delta."
+                    class="main-btn" target="_blank">Consultar</a>
                     <h4 class="title"><a href="javascript:void(0)">Pérgola Delta</a></h4>
                         <ul class='price' style="font-size: 12px;">
                             <li>Hierro Estructural Rectangular 80 x 40. Espesor de 2 MM</li>
@@ -215,7 +218,8 @@
                             </div>
 
                         <div class="destination_content">
-                            <a href="javascript:void(0)" class="main-btn">Consultar</a>
+                            <a href="https://api.whatsapp.com/send?phone=5491157659991&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20decks%20sinteticos."
+                    class="main-btn" target="_blank">Consultar</a>
                             <h4 class="title"><a href="javascript:void(0)">Deck sintético CAPPED COMPOSITE</a></h4>
                                 <ul class='price' style="font-size: 12px;">
                                     <li>No se pudre o se astilla</li>
@@ -255,7 +259,8 @@
                                     </div>
                                 </div>
                                 <div class="destination_content">
-                                    <a href="javascript:void(0)" class="main-btn">Consultar</a>
+                                    <a href="https://api.whatsapp.com/send?phone=5491157659991&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20P%C3%A9rgola%20Oslo."
+                    class="main-btn" target="_blank">Consultar</a>
                                     <h4 class="title"><a href="javascript:void(0)">Pérgola Oslo</a></h4>
                                         <ul class ='price'style="font-size: 12px;">
                                             <li>Hierro Columnas Estructural Rectangular 100x100 de columnas</li>
@@ -281,7 +286,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <div class="section_title text-center pb-25">
+                    <div class="section_title text-center pt-90 pb-80">
                         <h3 class="title">¿ Cómo lo hacemos ?</h3>
                             <p>Desarrollamos una metodología de trabajo basada en nuestra experiencia para garantizar resultados exitosos</p>
                     </div> <!-- section title -->
@@ -481,16 +486,16 @@
                 </div>
             </div> <!-- row -->
             <div class="contact_form">
-                <form action="assets/contact.php" method="POST" id="contact-form">
+                <form action="assets/js/main.js" method="POST" id="contact-form">
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="single_form">
-                                <input type="text" name="name" id="name" placeholder="Name">
+                                <input type="text" name="name" id="name" placeholder="Nombre Completo">
                             </div> 
                         </div>
                         <div class="col-lg-4">
                             <div class="single_form">
-                                <input type="text" name="phone" id="phone" placeholder="Phone">
+                                <input type="text" name="phone" id="phone" placeholder="Teléfono">
                             </div> 
                         </div>
                         <div class="col-lg-4">
@@ -501,12 +506,12 @@
                        
                         <div class="col-lg-12">
                             <div class="single_form">
-                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                                <textarea name="message" id="message" placeholder="Consulta"></textarea>
                             </div> 
                         </div>
                         <div class="col-lg-12">
                             <div class="single_form">
-                                <button type="submit" class="main-btn">Enviar Consulta</button>
+                                <button type="submit" id="submitButton" class="main-btn">Enviar Consulta</button>
                             </div> 
                         </div>
                     </div> <!-- row -->
@@ -579,9 +584,8 @@
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
     
     <!--====== Bootstrap js ======-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.4.5.2.min.js"></script>
 
     
     <!--====== Scrolling Nav js ======-->
